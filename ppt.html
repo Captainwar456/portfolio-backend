@@ -1,0 +1,391 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>monu's portfollio</title>
+    <style>
+        *{
+           
+            margin: 0%;
+            padding: 0;
+            
+            background-color: #e0e0e0;
+            
+        }
+        .navbar{
+            height: 100px;
+            width: 100%;
+        
+        }
+        .navbar ul{
+            justify-content: space-around;
+            text-align: center;
+            display: flex;
+            font-size: 4rem;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: darkolivegreen;
+            padding-right: 5%;
+        }
+        .navbar  li{
+            list-style: none;
+          
+            display: flex;
+            font-size: 1rem;
+            font-weight: bolder;
+            font-size: 1.5rem;
+            padding-top: 1.2%;
+            
+        }
+        .navbar ul li a{
+            text-decoration: none;
+            color: grey;
+            
+            
+        }
+        .navbar ul li a:hover{
+            color: rgb(73, 71, 71);
+        }
+        .firstsection{
+            display: flex;
+            justify-content: space-around;
+            margin: 24px 0;
+            height: 70%;
+            padding-left: 5%;
+            color: darkolivegreen;
+        }
+        .leftsection{
+           font-size: 2.5rem;
+           padding-top: 250px;
+           
+           background-color:  #e0e0e0;
+           
+        }
+        .rightsection .meri{
+            height: 10%;
+            width: 10%;
+        }
+        .secondsection h1{
+            margin-top: 5%;
+            margin-left: 13%;
+            font-size: 2rem;
+            font-weight: bold;
+        }
+       /* From Uiverse.io by doniaskima */ 
+.btn-31,
+.btn-31 *,
+.btn-31 :after,
+.btn-31 :before,
+.btn-31:after,
+.btn-31:before {
+  border: 0 solid;
+  box-sizing: border-box;
+}
+
+.btn-31 {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: button;
+  background-color: #0e0e0e;
+  background-image: none;
+  color: beige;
+  cursor: pointer;
+  line-height: 1.5;
+  margin: 0;
+  -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
+  padding: 0;
+}
+
+.btn-31:disabled {
+  cursor: default;
+}
+
+.btn-31:-moz-focusring {
+  outline: auto;
+}
+
+.btn-31 svg {
+  display: block;
+  vertical-align: middle;
+}
+
+.btn-31 [hidden] {
+  display: none;
+}
+
+.btn-31 {
+  border-width: 1px;
+  padding: 1rem 2rem;
+  position: relative;
+ border-radius: 50px;
+}
+
+.btn-31:before {
+  --progress: 100%;
+  background: #bebebe;
+  color: #000;
+  -webkit-clip-path: polygon(
+    100% 0,
+    var(--progress) var(--progress),
+    0 100%,
+    100% 100%
+  );
+  clip-path: polygon(
+    100% 0,
+    var(--progress) var(--progress),
+    0 100%,
+    100% 100%
+  );
+  content: "";
+  inset: 0;
+  position: absolute;
+  transition: -webkit-clip-path 0.2s ease;
+  transition: clip-path 0.2s ease;
+  transition: clip-path 0.2s ease, -webkit-clip-path 0.2s ease;
+}
+
+.btn-31:hover:before {
+  --progress: 0%;
+}
+
+.btn-31 .text-container {
+  display: block;
+  overflow: hidden;
+  position: relative;
+}
+
+.btn-31 .text {
+  display: block;
+  font-weight: 300;
+  mix-blend-mode: difference;
+  position: relative;
+  color: #000;
+}
+
+.btn-31:hover .text {
+  -webkit-animation: move-up-alternate 0.3s ease forwards;
+  animation: move-up-alternate 0.3s ease forwards;
+}
+
+@-webkit-keyframes move-up-alternate {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(80%);
+  }
+
+  51% {
+    transform: translateY(-80%);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes move-up-alternate {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(80%);
+  }
+
+  51% {
+    transform: translateY(-80%);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}
+
+       .rightsection{
+        padding-top: 8%;
+        height: 20%;
+        border-radius: 50%;
+       } 
+       
+       .rightsection .img{
+            border-radius: solid black;
+            border-radius: 50%;
+        }
+
+       .firstsection{
+        border-radius: 50px;
+        background: #e0e0e0;
+        box-shadow:  -20px -20px 60px #bebebe,
+             20px 20px 60px #ffffff;
+        height: 800px;
+        width: 90%;
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-top: 2%;
+       }
+      
+.social-menu ul{
+    position: absolute;
+    top: 75%;
+    left: 20%;
+    padding: 0;
+    margin: 0;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+
+.social-menu ul li{
+    list-style: none;
+    margin: 0 15px;
+}
+
+.social-menu ul li .fab{
+    font-size: 30px;
+    
+    transition: .3s;
+    color: #000;
+}
+
+.social-menu ul li .fab:hover{
+    
+}
+
+.social-menu ul li a{
+    position: relative;
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    
+    text-align: center;
+    transition: .6s;
+    box-shadow: 0 5px 4px rgba(0,0,0,.5);
+}
+
+.social-menu ul li a:hover{
+    transform: translate(0, -10%);
+}
+
+.social-menu ul li:nth-child(1) a:hover{
+    background-color: rgba(0, 0, 0, 0.829);
+}
+.social-menu ul li:nth-child(2) a:hover{
+    background-color: #E4405F;
+}
+.social-menu ul li:nth-child(3) a:hover{
+    background-color: #0077b5;
+}
+.social-menu ul li:nth-child(4) a:hover{
+    background-color: #000;
+}
+        
+    </style>
+ </head>
+ <body>
+    <div class="navbar">
+        <ul>
+            <div class="logo">Monu's portfolio</div>
+            <li><a href="about.html" class="li">about</a></li>
+            <li><a href="skills.html" class="li">skills</a></li>
+            <li><a href="project.html" class="li">project</a></li>
+            <li><a href="contactme.html" class="li">contact</a></li>
+            
+        </ul>
+    </div>
+    <div class="firstsection">
+       
+        <div class="leftsection">
+           <h1><span> HEY!I'm MONU MAURYA</span></h1>
+        
+             <h1 class=""> i am passionte for</h1>
+            <span id="element">web devlopment</span>
+            <br>
+            
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Social Media Icons</title>
+        <link rel="stylesheet" href="./social-media-icons.css">
+        <script src="https://kit.fontawesome.com/66aa7c98b3.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="social-menu">
+            <ul>
+                <li><a href="https://github.com/sanketbodke" target="blank"><i class="fab fa-github"></i></i></a></li>
+                <li><a href="https://www.instagram.com/imsanketbodke/" target="blank"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="www.linkedin.com/in/monu-maurya-188a7725a" target="blank"><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a href="https://codepen.io/sanketbodke"><i class="fab fa-codepen" target="blank"></i></a></li>
+            </ul>
+        </div>
+    </body>
+    </html>
+    <br>
+            <button class="btn-31">Hire-Me</button>
+            <button class="btn-31">Download resume</button>
+        </div>
+        <div class="rightsection">
+            <img src="Screenshot_2024-07-19_124506-removebg-preview (1).png" alt="photo">
+        </div>
+       </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script>
+         var firstsection=document.querySelector(".firstsection")
+              var cursor=document.querySelector(".cursor")
+              firstsection.addEventListener("mouseenter",function(){
+                gsap.to(cursor,{
+                    scale:4,
+                    opacity:0
+                })
+              })
+              firstsection.addEventListener("mouseleave",function(){
+                gsap.to(cursor,{
+                    scale:4,
+                    opacity:0
+                })
+              })
+              firstsection.addEventListener("mousemove",function(dets){
+                gsap.to(cursor,{
+                    left:dets.x,
+                    top:dets.y
+                })
+              })
+
+
+        
+        var typed = new Typed('#element', {
+          strings: ['<i>Web Devlopment</i> .', 'Problem solving.','Digital marketing'],
+          typeSpeed: 50,
+        });
+        gsap.to("img",{
+            y:60,
+           
+            duration:0.5,
+            repeat:2,
+            yoyo:true,
+        })
+     gsap.from("h1",{
+        opacity:0,
+        duration:1,
+        delay:1,
+        stagger:1,
+        repeat:1,
+        padingleft:100,
+        
+        paddindtop:800,
+     })
+     
+  
+</script>
+
+     
+      </script>
+      
+ </body>
+ </html>
